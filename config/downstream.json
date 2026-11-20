@@ -1,0 +1,20 @@
+{
+  "task": "singapore_gdp",
+  "label_file": "singapore_gdp.csv",
+  "split_file": "sg_gdp_split.json",
+  "split_seed": 2028,
+  "seeds": [666, 2026, 2027, 2028, 2029],
+  "hidden_dim": 384,
+  "moe_output_dim": 768,
+  "gate_hidden_dim": 256,
+  "dropout": 0.3,
+  "lr": 0.002,
+  "optimizer": "adam",
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "epochs": 100,
+  "patience": 30,
+  "eta_min": 0.000001,
+  "early_stop_delta": 0.000001,
+  "max_gradient_norm": 1.0
+}
